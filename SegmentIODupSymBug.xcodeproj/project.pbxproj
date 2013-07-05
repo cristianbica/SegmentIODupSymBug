@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28233FA417869365001E0219 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28233FA317869365001E0219 /* UIKit.framework */; };
+		28233FA617869365001E0219 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28233FA517869365001E0219 /* Foundation.framework */; };
+		28233FA817869365001E0219 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28233FA717869365001E0219 /* CoreGraphics.framework */; };
+		28233FAE17869365001E0219 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28233FAC17869365001E0219 /* InfoPlist.strings */; };
+		28233FB017869365001E0219 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28233FAF17869365001E0219 /* main.m */; };
+		28233FB417869365001E0219 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28233FB317869365001E0219 /* AppDelegate.m */; };
+		28233FB617869365001E0219 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 28233FB517869365001E0219 /* Default.png */; };
+		28233FB817869365001E0219 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28233FB717869365001E0219 /* Default@2x.png */; };
+		28233FBA17869365001E0219 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28233FB917869365001E0219 /* Default-568h@2x.png */; };
+		28233FBD17869365001E0219 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28233FBB17869365001E0219 /* MainStoryboard.storyboard */; };
+		28233FC017869365001E0219 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28233FBF17869365001E0219 /* ViewController.m */; };
+		28233FC817869365001E0219 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28233FC717869365001E0219 /* SenTestingKit.framework */; };
+		28233FC917869365001E0219 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28233FA317869365001E0219 /* UIKit.framework */; };
+		28233FCA17869365001E0219 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28233FA517869365001E0219 /* Foundation.framework */; };
+		28233FD217869365001E0219 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28233FD017869365001E0219 /* InfoPlist.strings */; };
+		28233FD517869366001E0219 /* SegmentIODupSymBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28233FD417869366001E0219 /* SegmentIODupSymBugTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28233FCB17869365001E0219 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28233F9817869365001E0219 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28233F9F17869365001E0219;
+			remoteInfo = SegmentIODupSymBug;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28233FA017869365001E0219 /* SegmentIODupSymBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentIODupSymBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28233FA317869365001E0219 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28233FA517869365001E0219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28233FA717869365001E0219 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28233FAB17869365001E0219 /* SegmentIODupSymBug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SegmentIODupSymBug-Info.plist"; sourceTree = "<group>"; };
+		28233FAD17869365001E0219 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28233FAF17869365001E0219 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28233FB117869365001E0219 /* SegmentIODupSymBug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SegmentIODupSymBug-Prefix.pch"; sourceTree = "<group>"; };
+		28233FB217869365001E0219 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28233FB317869365001E0219 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28233FB517869365001E0219 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		28233FB717869365001E0219 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		28233FB917869365001E0219 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		28233FBC17869365001E0219 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		28233FBE17869365001E0219 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28233FBF17869365001E0219 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28233FC617869365001E0219 /* SegmentIODupSymBugTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegmentIODupSymBugTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28233FC717869365001E0219 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		28233FCF17869365001E0219 /* SegmentIODupSymBugTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SegmentIODupSymBugTests-Info.plist"; sourceTree = "<group>"; };
+		28233FD117869365001E0219 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28233FD317869366001E0219 /* SegmentIODupSymBugTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentIODupSymBugTests.h; sourceTree = "<group>"; };
+		28233FD417869366001E0219 /* SegmentIODupSymBugTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentIODupSymBugTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28233F9D17869365001E0219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28233FA417869365001E0219 /* UIKit.framework in Frameworks */,
+				28233FA617869365001E0219 /* Foundation.framework in Frameworks */,
+				28233FA817869365001E0219 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28233FC217869365001E0219 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28233FC817869365001E0219 /* SenTestingKit.framework in Frameworks */,
+				28233FC917869365001E0219 /* UIKit.framework in Frameworks */,
+				28233FCA17869365001E0219 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28233F9717869365001E0219 = {
+			isa = PBXGroup;
+			children = (
+				28233FA917869365001E0219 /* SegmentIODupSymBug */,
+				28233FCD17869365001E0219 /* SegmentIODupSymBugTests */,
+				28233FA217869365001E0219 /* Frameworks */,
+				28233FA117869365001E0219 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28233FA117869365001E0219 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28233FA017869365001E0219 /* SegmentIODupSymBug.app */,
+				28233FC617869365001E0219 /* SegmentIODupSymBugTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28233FA217869365001E0219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28233FA317869365001E0219 /* UIKit.framework */,
+				28233FA517869365001E0219 /* Foundation.framework */,
+				28233FA717869365001E0219 /* CoreGraphics.framework */,
+				28233FC717869365001E0219 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28233FA917869365001E0219 /* SegmentIODupSymBug */ = {
+			isa = PBXGroup;
+			children = (
+				28233FB217869365001E0219 /* AppDelegate.h */,
+				28233FB317869365001E0219 /* AppDelegate.m */,
+				28233FBB17869365001E0219 /* MainStoryboard.storyboard */,
+				28233FBE17869365001E0219 /* ViewController.h */,
+				28233FBF17869365001E0219 /* ViewController.m */,
+				28233FAA17869365001E0219 /* Supporting Files */,
+			);
+			path = SegmentIODupSymBug;
+			sourceTree = "<group>";
+		};
+		28233FAA17869365001E0219 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28233FAB17869365001E0219 /* SegmentIODupSymBug-Info.plist */,
+				28233FAC17869365001E0219 /* InfoPlist.strings */,
+				28233FAF17869365001E0219 /* main.m */,
+				28233FB117869365001E0219 /* SegmentIODupSymBug-Prefix.pch */,
+				28233FB517869365001E0219 /* Default.png */,
+				28233FB717869365001E0219 /* Default@2x.png */,
+				28233FB917869365001E0219 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28233FCD17869365001E0219 /* SegmentIODupSymBugTests */ = {
+			isa = PBXGroup;
+			children = (
+				28233FD317869366001E0219 /* SegmentIODupSymBugTests.h */,
+				28233FD417869366001E0219 /* SegmentIODupSymBugTests.m */,
+				28233FCE17869365001E0219 /* Supporting Files */,
+			);
+			path = SegmentIODupSymBugTests;
+			sourceTree = "<group>";
+		};
+		28233FCE17869365001E0219 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28233FCF17869365001E0219 /* SegmentIODupSymBugTests-Info.plist */,
+				28233FD017869365001E0219 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28233F9F17869365001E0219 /* SegmentIODupSymBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28233FD817869366001E0219 /* Build configuration list for PBXNativeTarget "SegmentIODupSymBug" */;
+			buildPhases = (
+				28233F9C17869365001E0219 /* Sources */,
+				28233F9D17869365001E0219 /* Frameworks */,
+				28233F9E17869365001E0219 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegmentIODupSymBug;
+			productName = SegmentIODupSymBug;
+			productReference = 28233FA017869365001E0219 /* SegmentIODupSymBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28233FC517869365001E0219 /* SegmentIODupSymBugTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28233FDB17869366001E0219 /* Build configuration list for PBXNativeTarget "SegmentIODupSymBugTests" */;
+			buildPhases = (
+				28233FC117869365001E0219 /* Sources */,
+				28233FC217869365001E0219 /* Frameworks */,
+				28233FC317869365001E0219 /* Resources */,
+				28233FC417869365001E0219 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28233FCC17869365001E0219 /* PBXTargetDependency */,
+			);
+			name = SegmentIODupSymBugTests;
+			productName = SegmentIODupSymBugTests;
+			productReference = 28233FC617869365001E0219 /* SegmentIODupSymBugTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28233F9817869365001E0219 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = BCD;
+			};
+			buildConfigurationList = 28233F9B17869365001E0219 /* Build configuration list for PBXProject "SegmentIODupSymBug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28233F9717869365001E0219;
+			productRefGroup = 28233FA117869365001E0219 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28233F9F17869365001E0219 /* SegmentIODupSymBug */,
+				28233FC517869365001E0219 /* SegmentIODupSymBugTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28233F9E17869365001E0219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28233FAE17869365001E0219 /* InfoPlist.strings in Resources */,
+				28233FB617869365001E0219 /* Default.png in Resources */,
+				28233FB817869365001E0219 /* Default@2x.png in Resources */,
+				28233FBA17869365001E0219 /* Default-568h@2x.png in Resources */,
+				28233FBD17869365001E0219 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28233FC317869365001E0219 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28233FD217869365001E0219 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28233FC417869365001E0219 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28233F9C17869365001E0219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28233FB017869365001E0219 /* main.m in Sources */,
+				28233FB417869365001E0219 /* AppDelegate.m in Sources */,
+				28233FC017869365001E0219 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28233FC117869365001E0219 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28233FD517869366001E0219 /* SegmentIODupSymBugTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28233FCC17869365001E0219 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28233F9F17869365001E0219 /* SegmentIODupSymBug */;
+			targetProxy = 28233FCB17869365001E0219 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28233FAC17869365001E0219 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28233FAD17869365001E0219 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28233FBB17869365001E0219 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28233FBC17869365001E0219 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		28233FD017869365001E0219 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28233FD117869365001E0219 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28233FD617869366001E0219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28233FD717869366001E0219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28233FD917869366001E0219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SegmentIODupSymBug/SegmentIODupSymBug-Prefix.pch";
+				INFOPLIST_FILE = "SegmentIODupSymBug/SegmentIODupSymBug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28233FDA17869366001E0219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SegmentIODupSymBug/SegmentIODupSymBug-Prefix.pch";
+				INFOPLIST_FILE = "SegmentIODupSymBug/SegmentIODupSymBug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		28233FDC17869366001E0219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SegmentIODupSymBug.app/SegmentIODupSymBug";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SegmentIODupSymBug/SegmentIODupSymBug-Prefix.pch";
+				INFOPLIST_FILE = "SegmentIODupSymBugTests/SegmentIODupSymBugTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		28233FDD17869366001E0219 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SegmentIODupSymBug.app/SegmentIODupSymBug";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SegmentIODupSymBug/SegmentIODupSymBug-Prefix.pch";
+				INFOPLIST_FILE = "SegmentIODupSymBugTests/SegmentIODupSymBugTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28233F9B17869365001E0219 /* Build configuration list for PBXProject "SegmentIODupSymBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28233FD617869366001E0219 /* Debug */,
+				28233FD717869366001E0219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28233FD817869366001E0219 /* Build configuration list for PBXNativeTarget "SegmentIODupSymBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28233FD917869366001E0219 /* Debug */,
+				28233FDA17869366001E0219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28233FDB17869366001E0219 /* Build configuration list for PBXNativeTarget "SegmentIODupSymBugTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28233FDC17869366001E0219 /* Debug */,
+				28233FDD17869366001E0219 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28233F9817869365001E0219 /* Project object */;
+}
